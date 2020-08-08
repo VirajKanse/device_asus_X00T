@@ -169,6 +169,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     CameraGO
 
+#GalleryGO
+PRODUCT_PACKAGES += \
+    GalleryGO
+
 # Charging
 PRODUCT_PACKAGES += \
     charger_res_images \
