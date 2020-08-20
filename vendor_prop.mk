@@ -220,10 +220,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sdk.sensors.gestures=false \
-    ro.vendor.qti.sensors.dev_ori=true \
-    ro.vendor.qti.sensors.pmd=true \
-    ro.vendor.qti.sensors.sta_detect=true \
-    ro.vendor.qti.sensors.mot_detect=true \
     ro.vendor.qti.sensors.facing=false \
     ro.vendor.qti.sensors.cmc=false
 
