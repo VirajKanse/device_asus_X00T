@@ -169,6 +169,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     CameraGO
 
+# Boostframework
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
 # Charging
 PRODUCT_PACKAGES += \
     charger_res_images \
