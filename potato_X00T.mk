@@ -25,6 +25,9 @@ $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Moto Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := asus
