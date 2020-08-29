@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X00T.mk
+    $(LOCAL_DIR)/potato_X00T.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X00T-user \
-    lineage_X00T-userdebug \
-    lineage_X00T-eng
+    potato_X00T-user \
+    potato_X00T-userdebug \
+    potato_X00T-eng
