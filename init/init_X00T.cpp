@@ -101,12 +101,12 @@ void vendor_check_variant()
     if (sys.totalram > 4096ull * 1024 * 1024) {
         // Russian model
         if (region == "RU") {
-            build_fingerprint = "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys";
+            build_fingerprint = "sdm660_64-user-10-QKQ1-32-release-keys";
             product_device = "ASUS_X00T_9";
 
         // Global model
         } else {
-            build_fingerprint = "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys";
+            build_fingerprint = "sdm660_64-user-10-QKQ1-32-release-keys";
             product_device = "ASUS_X00T_3";
         }
 
@@ -114,12 +114,12 @@ void vendor_check_variant()
     } else {
         // Russian model
         if (region == "RU") {
-            build_fingerprint = "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys";
+            build_fingerprint = "sdm660_64-user-10-QKQ1-32-release-keys";
             product_device = "ASUS_X00T_6";
 
         // Global model
         } else {
-            build_fingerprint = "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys";
+            build_fingerprint = "sdm660_64-user-10-QKQ1-32-release-keys";
             product_device = "ASUS_X00T_2";
         }
     }
